@@ -105,3 +105,4 @@
     - Once the game ends store the score into the user’s local storage space.
 
 ![Wireframe](images/titlepagewireframeDDfinal.png)
+![PageMap](images/Developmentdungeondraft.png)
