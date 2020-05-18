@@ -1,4 +1,5 @@
 'use strict';
+
 var allPlayers = [];
 
 var currentPlayer = allPlayers[allPlayers.length-1];
@@ -19,9 +20,7 @@ function setLocalStorage(){
 
 // get local storage player data
 function getLocalStorage(){
-  console.log('Full: ' + allPlayers);
   allPlayers = [];
-  console.log('Empty: ' + allPlayers);
   var playerGetter = localStorage.getItem('players');
   var parsedPlayers = JSON.parse(playerGetter);
   for(var i = 0; i<parsedPlayers.length;i++){
@@ -32,5 +31,4 @@ function getLocalStorage(){
       parsedPlayers[i].keywordPlayed
     );
   }
-  console.log('Full?: ' + allPlayers);
 }
