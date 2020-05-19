@@ -33,6 +33,12 @@ function getLocalStorage(){
   }
 }
 
+function storageChecker(){
+  if (localStorage.getItem('players') !== null){
+    getLocalStorage();
+  }
+}
+
 
 // ---------- WIP ----------------
 // Test Users for testing Must be deleted for final production
@@ -41,3 +47,4 @@ var reagan = new PlayerData('Reagan');
 var kamit = new PlayerData('Kamit');
 var amber = new PlayerData('Amber');
 
+storageChecker();
