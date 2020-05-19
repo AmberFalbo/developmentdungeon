@@ -40,3 +40,4 @@ var trevor = new PlayerData('Trevor');
 var reagan = new PlayerData('Reagan');
 var kamit = new PlayerData('Kamit');
 var amber = new PlayerData('Amber');
+
