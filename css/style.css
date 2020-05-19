@@ -1,15 +1,13 @@
-html{
+html {
   padding-top: 20px;
   padding-bottom: 20px;
-  /* background-color: black; */
   background-color: #000000;
-background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
 }
 
-body{  
-  /* background-color: white; */
+body {
   background-color: #213505;
-background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
   color: rgb(230, 222, 222);
   margin: auto;
   width: 960px;
@@ -18,55 +16,83 @@ background-image: url("https://www.transparenttextures.com/patterns/brick-wall.p
   padding-top: 10px;
 }
 
-section{
+section {
   text-align: center;
 }
 
-header{
+header {
   border: 6px solid black;
+  border-radius: 10px;
   text-align: center;
+  background-color: black;
 }
 
-h1{
+h1 {
   border: 3px dashed green;
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
-  background-color: rgb(17, 18, 17);
+  background-color: rgb(37, 45, 37);
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 10px;
 }
 
-nav ol li{
+nav ol li {
   display: inline-block;
   font-family: 'Allerta Stencil', sans-serif;
   padding-left: 30px;
   padding-right: 30px;
- 
+  padding-bottom: 5px;
 }
 
-nav{
-  border: 3px solid red;
+nav {
+  border: 3px solid rgb(198, 5, 5);
   background-color: rgb(126, 148, 45);
+  border-radius: 10px;
 }
 
-div{
+div {
   text-align: center;
-  border: 3px dashed gold ;
+  border: 3px dashed rgb(120, 3, 3);
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 20px;
-}
-div ol li{
-  border: 2px solid black;
-  background-color: black;
+  border-radius: 10px;
 }
 
-main{
+div ol li {
+  border: 4px solid rgb(80, 82, 73);
+  background-color: rgb(12, 11, 11);
+  border-radius: 10px;
+}
+
+main {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-footer{
+footer {
   font-family: 'Allerta Stencil', sans-serif;
   padding-bottom: 5px;
   padding-top: 5px;
+
+}
+
+a:link {
+  color: rgb(1, 17, 1);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(103, 10, 10);
+}
+
+a:hover {
+  color: rgb(225, 182, 12);
+  text-decoration: underline;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+a:active {
+  color: rgb(194, 10, 10);
 }
