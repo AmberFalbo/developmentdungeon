@@ -67,15 +67,7 @@ nav {
   text-align: center;
   height: 800px;
   width: 800px;
-  padding-bottom: 40px;
-}
-
-form {
-  position: relative;
-  margin-left: 180px;
-  border: 2px dashed lightgray;
-  font-family: 'Press Start 2P', cursive;
-  padding: 5px;
+  /* padding-bottom: 40px; */
 }
 
 #button {
