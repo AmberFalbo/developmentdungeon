@@ -21,12 +21,10 @@ function renderTable(){
 
   // Render the thead data
   let parentRow = document.createElement('tr');
-  let tableHead = document.createElement('th');
-  parentRow.appendChild(tableHead);
 
   // loop through tableHeadValues
   for(let i = 0; i < tableHeadValues.length; i++){
-    tableHead = document.createElement('th');
+    var tableHead = document.createElement('th');
     tableHead.textContent = tableHeadValues[i];
     parentRow.appendChild(tableHead);
   }
