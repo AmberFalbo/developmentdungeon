@@ -2,13 +2,15 @@
 
 var allPlayers = [];
 
+if(allPlayers.length > 10){
+  allPlayers.shift();
+}
+
 var currentPlayer = allPlayers[allPlayers.length-1];
 
-function PlayerData(name, memoryPlayed=false, keywordPlayed=false){
+function PlayerData(name, score=0){
   this.name = name;
-  this.score = 0;
-  this.memoryPlayed = memoryPlayed;
-  this.keywordPlayed = keywordPlayed;
+  this.score = score;
   allPlayers.push(this);
 }
 
@@ -23,14 +25,13 @@ function getLocalStorage(){
   allPlayers = [];
   var playerGetter = localStorage.getItem('players');
   var parsedPlayers = JSON.parse(playerGetter);
-  for(var i = 0; i<parsedPlayers.length;i++){
+  for(var i = 0; i < parsedPlayers.length;i++){
     new PlayerData(
       parsedPlayers[i].name,
-      parsedPlayers[i].score,
-      parsedPlayers[i].memoryPlayed,
-      parsedPlayers[i].keywordPlayed
+      parsedPlayers[i].score
     );
   }
+  currentPlayer = allPlayers[allPlayers.length-1];
 }
 
 function storageChecker(){
@@ -38,13 +39,5 @@ function storageChecker(){
     getLocalStorage();
   }
 }
-
-
-// ---------- WIP ----------------
-// Test Users for testing Must be deleted for final production
-var trevor = new PlayerData('Trevor');
-var reagan = new PlayerData('Reagan');
-var kamit = new PlayerData('Kamit');
-var amber = new PlayerData('Amber');
 
 storageChecker();
