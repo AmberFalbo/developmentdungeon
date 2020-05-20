@@ -1,6 +1,7 @@
 @keyframes youScored{
   from{
     transform: rotate(20deg);
+    /* transform: scale(); */
   }
   to{
     transform: rotate(-20deg);
