@@ -1,17 +1,8 @@
 @keyframes youScored{
-  0%{
-
+  from{
+    transform: rotate(20deg);
   }
-  25%{
-    transform: rotate(-30deg);
-  }
-  50%{
-    transform: rotate(-40deg);
-  }
-  75%{
-    transform: rotate(-30deg);
-  }
-  100%{
+  to{
     transform: rotate(-20deg);
   }
 }
@@ -54,5 +45,5 @@ p{
   bottom: 500px;
   animation-name: youScored;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }

@@ -1,6 +1,7 @@
 'use strict';
 
 var scoreText = document.getElementById('score');
+var newOne = scoreText.cloneNode(true);
 
 // Perform all the actions required to increase the score
 function scoreUp(){
@@ -13,13 +14,21 @@ function scoreUp(){
   generateNewBomb();
 }
 
+// ------------ WIP -----------
 // Performs all the CSS animation calls when score is increased
+// function scoreAnimation(){
+//   scoreText.textContent = playerScore;
+//   scoreText.style.animationName = 'youScored';
+// }
+
 function scoreAnimation(){
-  // scoreText.textContent = '';
-  scoreText.textContent = playerScore;
-  scoreText.style.animationName = 'youScored';
-  scoreText.style.animationDuration = 
+  scoreText = document.getElementById('score');
+  var newOne = scoreText.cloneNode(true);
+  scoreText.parentNode.replaceChild(newOne,scoreText);
+  newOne.textContent = playerScore;
 }
+
+
 
 function gameOff(){
   //Stop the game when turned to false
