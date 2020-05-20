@@ -15,8 +15,10 @@ function scoreUp(){
 
 // Performs all the CSS animation calls when score is increased
 function scoreAnimation(){
-  scoreText.textContent = '';
+  // scoreText.textContent = '';
   scoreText.textContent = playerScore;
+  scoreText.style.animationName = 'youScored';
+  scoreText.style.animationDuration = 
 }
 
 function gameOff(){

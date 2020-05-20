@@ -68,4 +68,5 @@ document.getElementById('start').addEventListener('submit', function handler(eve
   gameOn();
   document.getElementById('start').style.visibility = 'hidden';
   document.getElementById('start').textContent = '';
+  document.getElementById('player').style.visibility = 'visible';
 });
