@@ -4,10 +4,10 @@ var parentElement = document.getElementById('scores');
 
 // -------------- WIP ----------------
 // Testing Data
-allPlayers[0].score = 550;
-allPlayers[1].score = 50;
-allPlayers[2].score = 120;
-allPlayers[3].score = 350;
+// allPlayers[0].score = 550;
+// allPlayers[1].score = 50;
+// allPlayers[2].score = 120;
+// allPlayers[3].score = 350;
 
 
 // Render all the table info
@@ -46,6 +46,8 @@ function renderTable(){
     parentBody.appendChild(parentRow);
   }
 }
+
+getLocalStorage();
 
 // Sort the allPlayers array by score.
 allPlayers.sort((a, b) => {
