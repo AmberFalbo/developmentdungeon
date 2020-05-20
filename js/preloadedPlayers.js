@@ -12,9 +12,6 @@ var harry = new PlayerData('Harry Winston', getRandom(1,11) * 100);
 var lucipurr = new PlayerData('Lucipurr', getRandom(1,11) * 100);
 
 
-
-
-
 function getRandom(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);

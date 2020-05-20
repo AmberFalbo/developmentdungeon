@@ -41,3 +41,9 @@ function storageChecker(){
 }
 
 storageChecker();
+
+document.getElementById('goto').addEventListener('click', function handler(){
+  if(localStorage.getItem('players') === null){
+    setLocalStorage();
+  }
+});
