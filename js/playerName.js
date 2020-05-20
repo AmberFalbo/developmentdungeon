@@ -1,5 +1,6 @@
 'use strict';
 
+// Event listener to set user's name into local storage
 document.getElementById('playerName').addEventListener('submit', function handler(event){
   event.preventDefault();
 
