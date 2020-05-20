@@ -25,8 +25,12 @@
         font-family: 'Allerta Stencil', sans-serif;
         font-size: 12px;
         margin-right: 500px;  
+    
     }
-  
+      h4 {
+        color: white;
+        font-size: 15px;  
+      }
     .teammember1 {
         float: left;
         border-radius: 50%;
@@ -34,11 +38,13 @@
         
      .logo1a {
         float: left;
-        margin-right: 400px;
+        margin-top: 50px;
+        /* margin-right: 400px; */
     }  
      .logo1b {
         float: left;
-        margin-right: 400px;
+        margin-top: 50px;
+        /* margin-right: 400px; */
         /* margin-top: 50px; */
     } 
 
@@ -51,7 +57,9 @@
         display: inline;
         font-family: 'Allerta Stencil', sans-serif;
         margin-right: 500px;
-        font-size: 12px;    
+        font-size: 12px; 
+          
+
     }
         
     .teammember2 {
@@ -62,12 +70,14 @@
             
         .logo2a {
         float: left;
-        margin-right: 400px;
+        /* margin-right: 400px;
+        margin-top: 24px; */
             
         }   
         .logo2b {
-        float: left;
-        margin-right: 400px;
+        float: left;    
+        /* margin-left: 100px;
+        margin-right: 400px; */
             
         } 
 
@@ -76,12 +86,13 @@
         float: left;
      
     }
-
+    
     .about3 {
         display: inline;
         font-family: 'Allerta Stencil', sans-serif;
         margin-right: 500px; 
-        font-size: 12px;   
+        font-size: 12px; 
+         
     }
     .teammember3 {
         margin-top: 20px;
@@ -91,12 +102,14 @@
        
      .logo3a {
         float: left;
-        margin-right: 400px;
+        margin-top: 50px
+        
         
     }   
      .logo3b {
         float: left;
-        margin-right: 400px;     
+        margin-top: 50px
+             
                   
     }
 
@@ -110,6 +123,7 @@
         font-family: 'Allerta Stencil', sans-serif;
         margin-right: 500px;
         font-size: 12px;
+        
 
           
     }  
@@ -121,13 +135,13 @@
 
      .logo4a {
         float: left;
-        margin-right: 400px;
+        margin-top: 50px;
         
     }   
      .logo4b {
         float: left;
-        margin-right: 400px;     
-                  
+        margin-top: 50px;
+                    
     }
        
         
