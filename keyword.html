@@ -19,7 +19,7 @@
     <nav>
       <ol>
         <img src="https://freesvg.org/img/cybergedeon-flame-color.png" alt="flames" title="flames" width="20px">
-        <li><a href="index.html">Home</a></li>
+        <li><a id="goto" href="index.html">Home</a></li>
         <img src="https://freesvg.org/img/cybergedeon-flame-color.png" alt="flames" title="flames" width="20px">
         <li><a href="highscores.html">High Scores</a></li><img src="https://freesvg.org/img/cybergedeon-flame-color.png" alt="flames" title="flames" width="20px">
         <li><a href="aboutus.html">About Us</a></li>
@@ -30,7 +30,29 @@
   <main>
     <section>
       <div id=middleArea>
-      
+        <section id="score">
+        </section>
+        <section id="test"></section>
+        <section>
+          <section id="viewport"></section>
+          <section id="animation"></section>
+          <section id="score"></section>
+          <form id="start">
+            <fieldset>
+              <label> Start Game:
+                <input type="submit" name="starts" value=" Start ">
+              </label>
+            </fieldset>
+          </form>
+          <form id="player">
+            <fieldset>
+              <label> Shoot the bomb by typing in the keyword:
+                <input id="playerIn" type="text" name="playerInput" value="" autocomplete="off" />
+              </label>
+              <input type="submit" name="answer" value="Shoot">
+            </fieldset>
+          </form>
+        </section>
       </div>
     </section> 
     <div id=button>
@@ -51,6 +73,12 @@
     </section>
     <script src="js/playerData.js"></script>
     <script src="js/keywordPlayer.js"></script>
+    <script src="js/keywordGame/p5.min.js"></script>
+    <script src="js/keywordGame/keywords.js"></script>
+    <script src="js/keywordGame/keywordGame.js"></script>
+    <script src="js/keywordGame/bomb.js"></script>
+    <script src="js/keywordGame/sketch.js"></script>
+    <script src="js/keywordGame/gameController.js"></script>
     <script src="js/app.js"></script>
   </footer>
 </body>

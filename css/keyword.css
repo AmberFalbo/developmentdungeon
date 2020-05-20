@@ -1,0 +1,20 @@
+#middleArea{
+  margin-left: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#start{
+  padding: 10px;
+  background-color: green;
+  position: absolute;
+  bottom: 400px;
+  left: 560px;
+}
+#player{
+  padding: 10px;
+  background-color: green;
+  position: absolute;
+  left: 350px;
+  bottom: 1px;
+}
