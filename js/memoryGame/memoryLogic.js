@@ -12,9 +12,9 @@ var definitionArray = [
   ['GitHub', 'GitHub is a web-based version-control and collaboration platform for software developers'],
   ['DOM', 'Document Object Model'],
   ['Repo', 'A directory or storage space where your projects can live'],
-  ['CSS selectors', 'CSS selectors are used to "find" (or select) the HTML elements you want to style'],
-  ['HTML Form', 'An HTML form is used to collect user input'],
-  ['HTML tag', 'The <html> tag is the container for all other HTML elements']
+  ['CSS-selectors', 'CSS selectors are used to "find" (or select) the HTML elements you want to style'],
+  ['HTML-Form', 'An HTML form is used to collect user input'],
+  ['HTML-tag', 'The <html> tag is the container for all other HTML elements']
   // ['HTML button', 'The <button> tag defines a clickable button'],
   // ['JS function', 'JavaScript functions are defined with the function keyword'],
   // ['JS object', 'An object is a collection of properties, and a property is an association between a name (or key) and value'],
