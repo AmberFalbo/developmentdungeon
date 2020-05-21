@@ -120,8 +120,8 @@ parentElement.addEventListener('click', function handler(){
     console.log('I am True');
     // firstCard = document.getElementsByClassName(flippedCards[0]);
 
-    // cardsMatched[0].style.visibility = 'hidden';
-    // cardsMatched[1].style.visibility = 'hidden';
+    cardsMatched[0].style.visibility = 'hidden';
+    cardsMatched[1].style.visibility = 'hidden';
 
     flippedCards = [];
     cardsMatched = [];
