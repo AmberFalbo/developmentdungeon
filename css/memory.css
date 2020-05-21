@@ -1,27 +1,57 @@
-.HTML{
-  border: 2px solid black;
-  height: 100px;
-  width: 200px;
-  text-align: center;
+#startGame{
+  /* padding: 10px; */
+  color: rgb(43, 227, 95);
+  background-color: black;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 350px;
+  left: 200px;
+  /* line-height: 15px; */
+  font-family: 'Press Start 2P', cursive;
 }
 
+
+#middleArea {
+  /* padding-bottom: 60px; */
+  border: 4px dashed rgb(232, 13, 13);
+  margin-left: 80px;
+  margin-bottom: 100px;
+
+}
+
+#memoryGame{
+  margin: 0px;
+}
+
+table{
+  width: 800px;
+  height: 800px;
+  background-color: rgb(11, 48, 20);
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 16px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+
+}
 td{
   display: table-cell;
-  border: 2px solid black;
-  width: 100px;
-  height: 100px;
+  border: 6px solid rgb(154, 186, 154);
+  width: 200px;
+  height: 150px;
+  padding-top: 40px;
+  color: aliceblue;
+
 }
 
 tr{
-  border: 2px solid black;
-  text-align: center;
-  margin: 5%;
-  
-} 
-
-table{
-  border: 2px solid black;
-  width: 800px;
-  height: 800px;
+  border: 6px solid rgb(154, 186, 154);
 }
 
+
+h3{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+}
