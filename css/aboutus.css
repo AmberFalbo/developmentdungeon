@@ -1,134 +1,166 @@
- body {
+ /* body {
     width: 960px;
     margin: auto;
-  }
+  } */
   
-  header {
+  /* header {
     padding-top: 40px;
-  }
+  } */
 
- .middleArea {
+p{
+    font-size: 20px;
+}
+
+.middleArea {
     padding-top: 60px;
-     height: 800px;
-     width: 800px;
-     padding-bottom: 40px;
-     font-family: 'Allerta Stencil', sans-serif;
-     border: 4px solid rgb(80, 82, 73);
-             
-   }
-   .aboutus1 {
-     float: left;
-    }
+    width: 800px;
+    height: 1000px;
+    padding-bottom: 40px;
+    font-family: 'Allerta Stencil', sans-serif;
+    /* border: 4px solid rgb(80, 82, 73); */
+    margin-left: 80px;
+            
+}
+.aboutus1 {
+    float: left;
+}
+    
+.about1 {
+    display: inline;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 12px;
+    margin-right: 500px;  
+
+}
+h4 {
+    color: white;
+    font-size: 30px;  
+}
+.teammember1 {
+    float: left;
+    border-radius: 50%;
+    width: 100px;
+}
+    
+    .logo1a {
+    float: left;
+    /* margin-top: 20px; */
+    /* margin-right: 400px; */
+}  
+    .logo1b {
+    float: left;
+    /* margin-top: 20px; */
+    /* margin-right: 400px; */
+    /* margin-top: 50px; */
+} 
+
+.aboutus2 {
+    margin-top: 30px;
+    float: left;
+    border-radius: 50%;
+}   
+.about2 {
+    display: inline;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-right: 500px;
+    font-size: 12px; 
         
-    .about1 {
-        display: inline;
-        font-family: 'Allerta Stencil', sans-serif;
-        font-size: 12px;
-        margin-right: 500px;  
-    }
-  
-    .teammember1 {
-        float: left;
-        border-radius: 50%;
-    }
+
+}
+    
+.teammember2 {
+    margin-top: 20px;
+    float: right;
+    border-radius: 50%;
+    width: 100px;
+}
         
-     .logo1a {
-        float: left;
-        margin-right: 400px;
-    }  
-     .logo1b {
-        float: left;
-        margin-right: 400px;
-        /* margin-top: 50px; */
+    .logo2a {
+    float: right;
+    /* margin-left: 700px;
+    margin-top: 24px; */
+        
+    }   
+    .logo2b {
+    float: right;    
+    /* margin-left: 100px;
+    margin-right: 400px; */
+    /* margin-left: 700px;
+    margin-top: 24px; */
+        
     } 
 
-    .aboutus2 {
-        margin-top: 30px;
-        float: left;
-        border-radius: 50%;
-    }   
-    .about2 {
-        display: inline;
-        font-family: 'Allerta Stencil', sans-serif;
-        margin-right: 500px;
-        font-size: 12px;    
-    }
-        
-    .teammember2 {
-        margin-top: 20px;
-        float: left;
-        border-radius: 50%;
-    }
-            
-        .logo2a {
-        float: left;
-        margin-right: 400px;
-            
-        }   
-        .logo2b {
-        float: left;
-        margin-right: 400px;
-            
-        } 
-
-    .aboutus3 {
-        margin-top: 50px;
-        float: left;
-     
-    }
-
-    .about3 {
-        display: inline;
-        font-family: 'Allerta Stencil', sans-serif;
-        margin-right: 500px; 
-        font-size: 12px;   
-    }
-    .teammember3 {
-        margin-top: 20px;
-        float: left;
-        border-radius: 50%;
-    }
-       
-     .logo3a {
-        float: left;
-        margin-right: 400px;
-        
-    }   
-     .logo3b {
-        float: left;
-        margin-right: 400px;     
-                  
-    }
-
-    .aboutus4 {
-        margin-top: 50px;
-        float: left;
-        border-radius: 50%;
-    }
-    .about4 {
-        display: inline;
-        font-family: 'Allerta Stencil', sans-serif;
-        margin-right: 500px;
-        font-size: 12px;
-
-          
-    }  
-    .teammember4 {
-        margin-top: 20px;
-        float: left;
-        border-radius: 50%;
-    }
-
-     .logo4a {
-        float: left;
-        margin-right: 400px;
-        
-    }   
-     .logo4b {
-        float: left;
-        margin-right: 400px;     
-                  
-    }
-       
-        
+.aboutus3 {
+    margin-top: 50px;
+    float: left;
     
+}
+
+.about3 {
+    display: inline;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-right: 500px; 
+    font-size: 12px; 
+        
+}
+.teammember3 {
+    margin-top: 20px;
+    float: left;
+    border-radius: 50%;
+    width: 100px;
+}
+    
+    .logo3a {
+        position: relative;
+        float: left;
+        margin-top: 55px;
+        right: 100px;
+
+    
+}   
+    .logo3b {
+        position: relative;
+        float: left;
+        margin-top: 55px;
+        right: 100px;
+
+            
+                
+}
+
+.aboutus4 {
+    margin-top: 50px;
+    float: left;
+    border-radius: 50%;
+}
+.about4 {
+    display: inline;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-right: 500px;
+    font-size: 12px;
+    
+
+        
+}  
+.teammember4 {
+    margin-top: 20px;
+    float: right;
+    border-radius: 50%;
+    width: 100px;
+}
+
+    .logo4a {
+    float: right;
+    margin-top: 5px;
+    
+}   
+    .logo4b {
+    float: right;
+    margin-top: 5px;
+                
+}
+    
+    
+/* .row{
+    display: inline;
+} */

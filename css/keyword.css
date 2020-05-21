@@ -1,3 +1,17 @@
+@keyframes youScored{
+  from{
+    transform: rotate(20deg);
+    /* transform: scale(); */
+  }
+  to{
+    transform: rotate(-20deg);
+  }
+}
+
+p{
+  margin-top: 5px;
+}
+
 #middleArea{
   margin-left: 80px;
   margin-bottom: 10px;
@@ -6,15 +20,31 @@
 
 #start{
   padding: 10px;
-  background-color: green;
-  position: absolute;
-  bottom: 400px;
-  left: 560px;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(43, 227, 95);
+  background-color: black;
+  position: relative;
+  width: 400px;
+  bottom: 500px;
+  left: 180px;
 }
 #player{
+  visibility: hidden;
   padding: 10px;
-  background-color: green;
-  position: absolute;
-  left: 350px;
-  bottom: 1px;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(43, 227, 95);
+  position: relative;
+  width: 600px;
+  bottom: 80px;
+  left: 70px;
+}
+
+#score{
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(43, 227, 95);
+  bottom: 500px;
+  animation-name: youScored;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
