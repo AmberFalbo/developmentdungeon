@@ -2,7 +2,7 @@
   text-align: center;
   position: center;
   object-position: center;
-  /* padding-bottom: 30px; */
+  padding-bottom: 30px;
 }
 
 
@@ -11,7 +11,7 @@
   text-align: center;
   color: rgb(43, 227, 95);
   text-decoration: underline;
-  padding-left: 250px;
+  padding-left: 220px;
 }
 
 h3 {
