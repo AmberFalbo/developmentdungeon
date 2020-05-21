@@ -67,7 +67,6 @@ nav {
   text-align: center;
   height: 800px;
   width: 800px;
-  /* padding-bottom: 40px; */
 }
 
 #button {
@@ -76,6 +75,7 @@ nav {
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 20px;
   border-radius: 10px;
+  color: rgb(12, 11, 11);
 
 }
 

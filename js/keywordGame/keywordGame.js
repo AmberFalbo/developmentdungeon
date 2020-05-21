@@ -69,4 +69,5 @@ document.getElementById('start').addEventListener('submit', function handler(eve
   document.getElementById('start').style.visibility = 'hidden';
   document.getElementById('start').textContent = '';
   document.getElementById('player').style.visibility = 'visible';
+  document.getElementById('playerIn').focus();
 });

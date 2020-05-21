@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Memory Game</title>
+  <title>Tiles of Knowledge</title>
   <link href="css/reset.css" type="text/css" rel="stylesheet" />
   <link href="css/style.css" type="text/css" rel="stylesheet" />
   <link href="css/memory.css" type="text/css" rel="stylesheet" />
@@ -14,7 +14,7 @@
   <header>    
     <section>
       <h1>Development Dungeon</h1>
-      <h2><img src="https://freesvg.org/img/Anonymous_Architetto_--_Asso_carte.png" alt="cards" title="cards" width="20px"> Memory Game <img src="https://freesvg.org/img/Anonymous_Architetto_--_Asso_carte.png" alt="cards" title="cards" width="20px"></h2>
+      <h2><img src="https://freesvg.org/img/Anonymous_Architetto_--_Asso_carte.png" alt="cards" title="cards" width="20px"> Tiles of Knowledge <img src="https://freesvg.org/img/Anonymous_Architetto_--_Asso_carte.png" alt="cards" title="cards" width="20px"></h2>
     </section>
     <nav>
       <ol>
@@ -32,8 +32,15 @@
     <section>
       <div id=middleArea>
         <section id="memoryGame">
+          <h3 id=score></h3>
+              <form id="startGame">
+                  <fieldset>
+                      <label>You have come across a wall blocking your path. On closer inspection you can see arcane writing etched into the stone and in one corner is a 6 etched into the stone. You start touching one of the tiles and then another. Suddenly a loud horn blares in the distance and you see one of the 6 turned a 5. You realise you have to match the tiles but you only get 5 mistakes before number turners into 0 and….who knows.
+                          <p><input type="submit" name="startGame" value=" Start Game"></p>
+                      </label>
+                  </fieldset>
+              </form>
           <table id="game"></table>
-  
         </section>
       </div>
     </section> 

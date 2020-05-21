@@ -14,13 +14,7 @@ function scoreUp(){
   generateNewBomb();
 }
 
-// ------------ WIP -----------
-// Performs all the CSS animation calls when score is increased
-// function scoreAnimation(){
-//   scoreText.textContent = playerScore;
-//   scoreText.style.animationName = 'youScored';
-// }
-
+// Update and animate displayed score
 function scoreAnimation(){
   scoreText = document.getElementById('score');
   var newOne = scoreText.cloneNode(true);
@@ -29,7 +23,7 @@ function scoreAnimation(){
 }
 
 
-
+// Turn the game off if gamePlaying is false
 function gameOff(){
   //Stop the game when turned to false
   if(gamePlaying === false){
@@ -85,7 +79,18 @@ function gameOver(){
     noLoop();
     document.getElementById('player').style.visibility = 'hidden';
     document.getElementById('player').textContent = '';
+    gameOverTextRenderer();
   }
+}
+
+// Render the Game Over Text
+function gameOverTextRenderer(){
+  var startParent = document.getElementById('start');
+  startParent.textContent = '';
+  var newPTag = document.createElement('p');
+  newPTag.textContent = 'Game Over';
+  startParent.appendChild(newPTag);
+  startParent.style.visibility = 'visible';
 }
 
 // Function to start the game

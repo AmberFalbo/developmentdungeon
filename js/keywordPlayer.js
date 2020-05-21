@@ -11,6 +11,8 @@ function setCurrentPlayersScore(){
 //event listener to load score into Local storage
 document.getElementById('nextpage').addEventListener('submit', function handler(event){
   event.preventDefault();
+
+  currentPlayersScore = playerScore;
   // Set the score set local storage load next page.
   setCurrentPlayersScore();
   setLocalStorage();
