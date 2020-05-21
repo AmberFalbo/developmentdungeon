@@ -14,7 +14,6 @@
 
 #middleArea {
   /* padding-bottom: 60px; */
-  border: 4px dashed rgb(232, 13, 13);
   margin-left: 80px;
   margin-bottom: 100px;
 
@@ -27,20 +26,22 @@
 table{
   width: 800px;
   height: 800px;
-  background-color: rgb(11, 48, 20);
+  background-color: #;
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 16px;
   padding-bottom: 20px;
   margin-bottom: 30px;
   margin-top: 0px;
+  border-collapse: separate;
 
 }
 td{
   display: table-cell;
-  border: 6px solid rgb(154, 186, 154);
+  background-color: #2e4d1d;
+  border: 3px solid rgb(154, 186, 154);
   width: 200px;
   height: 150px;
-  padding-top: 40px;
+  padding-top: 60px;
   color: aliceblue;
 
 }
