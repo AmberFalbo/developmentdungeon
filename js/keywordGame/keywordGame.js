@@ -56,6 +56,7 @@ document.getElementById('player').addEventListener('submit', function handler(ev
     document.getElementById('playerIn').value = '';
     scoreUp();
   } else {
+    document.getElementById('playerIn').value = '';
     bomb.speed++;
   }
 });
@@ -65,5 +66,7 @@ document.getElementById('start').addEventListener('submit', function handler(eve
   event.preventDefault();
   console.log('Am I being pushed?');
   gameOn();
+  document.getElementById('start').style.visibility = 'hidden';
   document.getElementById('start').textContent = '';
+  document.getElementById('player').style.visibility = 'visible';
 });

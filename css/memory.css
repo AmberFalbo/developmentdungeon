@@ -1,0 +1,27 @@
+.HTML{
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+
+td{
+  display: table-cell;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+tr{
+  border: 2px solid black;
+  text-align: center;
+  margin: 5%;
+  
+} 
+
+table{
+  border: 2px solid black;
+  width: 800px;
+  height: 800px;
+}
+

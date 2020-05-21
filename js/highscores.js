@@ -2,14 +2,6 @@
 
 var parentElement = document.getElementById('scores');
 
-// -------------- WIP ----------------
-// Testing Data
-// allPlayers[0].score = 550;
-// allPlayers[1].score = 50;
-// allPlayers[2].score = 120;
-// allPlayers[3].score = 350;
-
-
 // Render all the table info
 function renderTable(){
   // the `th` values
@@ -47,16 +39,19 @@ function renderTable(){
   }
 }
 
-getLocalStorage();
+function callAndSortLocalStorage(){
+  getLocalStorage();
 
-// Sort the allPlayers array by score.
-allPlayers.sort((a, b) => {
-  if(a.score < b.score){
-    return 1;
-  } else {
-    return -1;
-  }
-});
+  // Sort the allPlayers array by score.
+  allPlayers.sort((a, b) => {
+    if(a.score < b.score){
+      return 1;
+    } else {
+      return -1;
+    }
+  });
+  // Call the renderTable
+  renderTable();
+}
 
-// Call the renderTable
-renderTable();
+callAndSortLocalStorage();
