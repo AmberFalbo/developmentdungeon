@@ -2,8 +2,8 @@
   text-align: center;
   border: 5px solid black;
   background-color: black;
-  padding-top: 150px;
-  /* height: 600px; */
+  padding-top: 80px;
+  height: 600px;
   height: 450px;
   width: 950px;
   object-position: center;
@@ -11,8 +11,8 @@
 
 h3{
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
   font-weight: bold;
@@ -20,8 +20,8 @@ h3{
 
 p{
   text-align: center;
-  color: white;
-  font-size: 18px;
+  color: rgb(180, 223, 161);
+  font-size: 26px;
   font-family: 'Allerta Stencil', sans-serif;
   line-height: 24px;
 }
@@ -34,8 +34,9 @@ form {
   font-family: 'Press Start 2P', cursive;
   padding: 5px;
   padding-bottom: 10px;
-  margin-bottom: 30px;
-  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  background-color: rgb(33, 43, 38);
 }
 
 #start{
