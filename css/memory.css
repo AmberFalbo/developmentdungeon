@@ -1,7 +1,7 @@
 #startGame{
   /* padding: 10px; */
   color: rgb(43, 227, 95);
-  background-color: black;
+  /* background-color: black; */
   position: absolute;
   width: 500px;
   height: 500px;
@@ -55,4 +55,16 @@ h3{
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 14px;
+}
+
+fieldset{
+  position: relative;
+  width: 600px;
+  /* height: 300px; */
+  left: 92%;
+  background-color: black;
+}
+
+label{
+  line-height: 1.2em;
 }
