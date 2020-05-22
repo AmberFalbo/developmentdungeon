@@ -2,7 +2,7 @@
 
 /// Global
 
-var tries = 5;
+var tries = 4;
 
 var uniqueIndexArray = [];
 
@@ -150,7 +150,7 @@ parentElement.addEventListener('click', function handler(){
     console.log('I am False');
   }
 
-  document.getElementById('score').textContent = `Score: ${scoreMemory}, You have ${tries} tries left.`;
+  document.getElementById('score').textContent = `Score: ${scoreMemory}, You have ${tries} attempts left.`;
 });
 
 
